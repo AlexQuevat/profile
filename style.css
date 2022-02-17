@@ -1,0 +1,95 @@
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #575f7d;
+}
+
+p, a {
+  font-family: 'Lora', serif;
+  color: #5d6582;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: #6b72e1;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 6px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  transition: 2s;
+}
+
+img {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 24px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(20, 20, 20, 0.4);
+  margin-bottom: 24px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.logo-socialmedia {
+  font-size: 32px;
+  color: #6b72e1;
+  margin: 0 4px;
+}
+
+.logo-socialmedia:hover {
+  color: black;
+  transition: 2s;
+}
+
+li {
+  display: inline;
+}
+
+#card-sport {
+  background-image: url(images/basketball.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#card-sport h1 {
+  color: white;
+}
+
+#card-sport p {
+  color: white;
+}
+
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 560px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 320px;
+  }
+}
+
+
+
+
+
